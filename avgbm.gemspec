@@ -8,9 +8,9 @@ Gem::Specification.new do |spec|
   spec.version       = Avgbm::VERSION
   spec.authors       = ["Girish S"]
   spec.email         = ["girish.sonawane@gmail.com"]
-  spec.summary       = %q{TODO: Write a short summary. Required.}
-  spec.description   = %q{TODO: Write a longer description. Optional.}
-  spec.homepage      = ""
+  spec.summary       = %q{Adds avgbm method to Ruby Benchmark std lib.}
+  spec.description   = %q{Adds Benchmark.avgbm method, that discards highest/lowest times and averages the remaining results.}
+  spec.homepage      = "https://github.com/girishso/avgbm"
   spec.license       = "MIT"
 
   spec.files         = `git ls-files -z`.split("\x0")
