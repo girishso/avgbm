@@ -21,8 +21,10 @@ Or install it yourself as:
 ## Usage
 
 The first param is number of times to run each code block (defaults to and minimum is 5).
+
 Second param is the label width for printing.
-It discards about 20% highest/lowest times and averages the remaining 60% results.
+
+The method discards about 20% highest/lowest times and averages the remaining 60% results.
 
 ```ruby
 Benchmark.avgbm(10) do |x|
