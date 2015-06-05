@@ -2,6 +2,8 @@
 
 Adds `avgbm` method to Ruby `Benchmark` std lib, that discards highest/lowest times and averages the remaining results.
 
+[![Gem Version](https://badge.fury.io/rb/avgbm.svg)](http://badge.fury.io/rb/avgbm)
+
 ## Installation
 
 Add this line to your application's Gemfile:
